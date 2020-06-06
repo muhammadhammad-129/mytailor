@@ -1,0 +1,334 @@
+/* HOMEPAGE */
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.firstheader{
+    text-align: center;
+    background-color: #23232d;
+    color: #898989;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+.dropdown-item:active{
+    color: #898989;
+    background-color: #23232d;
+}
+.box>span{
+    font-size: 14px;
+}
+.icon{
+    font-size: 14px;
+}
+.icon:hover{
+    color:  #bfa16b;
+}
+.social{
+    text-decoration: none;
+    color: #898989;
+}
+.icons1{
+    font-size: 18px !important;
+}
+.social:hover{
+    color:  #bfa16b;
+    text-decoration: none;
+}
+.logo{
+    width: 120px;
+    height: auto;
+}
+.navigation{
+    background-color: rgb(247, 248, 250);
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navigation li{
+    padding: 7px;
+    text-transform: uppercase;
+}
+.list{
+    text-transform: capitalize;
+    background-color: rgb(247, 248, 250);
+}
+.navigation li>a:hover{
+    background-color: #23232d;
+    color: whitesmoke !important;
+    border-radius: 20px;
+}
+
+.service{
+    background-color: rgb(247, 248, 250);
+    text-align: center;
+    text-transform: uppercase;
+}
+.tservice:hover{
+    color: red;
+}
+@media only screen and (max-width: 600px){
+    .box>img{
+        width: 180px;
+        height: 180px;
+    }
+    .box>img:hover{
+        width: 185px;
+        height: 185px;
+    }   
+}
+@media only screen and (max-width: 400px){
+    .box>img{
+        width: 150px;
+        height: 150px;
+    }
+    .box>img:hover{
+        width: 155px;
+        height: 155px;
+    }
+}
+.circle:hover{
+    width: 225px;
+    height: 225px;
+}
+.circle{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    text-align: center;
+}
+.btn{
+    width: 150px;
+    border-radius: 20px;
+    border-style: dashed;
+    border-color: white;
+}
+.sale{
+    background-image: url(Images/sale.jpeg);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+@media only screen and (max-width: 500px){
+    .sale>h1{
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .sale>h1{
+        font-size: 26px;
+    }
+}
+
+.testimonials{
+    background-image: url(Images/Testimonials.jpg);
+}
+
+
+.circle1{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.circle1:hover{
+    opacity: 0.5;
+}
+.service1{
+    background-color: rgb(247, 248, 250);
+    text-align: center;
+}
+.cservice{
+    text-align: center;
+}
+.counter{
+    text-align: center;
+    background-image: url(Images/done/main.jpg);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+}
+.count{
+    width: 70px;
+    height: auto;
+}
+.footer{
+    background-color: #23232d;
+    color: #898989;
+    text-align: center;
+}
+.foot1>.hr{
+    border-top: 1px solid #898989;
+    width: 250px;
+}
+@media only screen and (max-width: 1000px){
+    .hr{
+        width: 200px;
+    }
+    .foot1>h4{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .foot1{
+        border-right: 1px solid #898989;
+    }
+}
+@media only screen and (max-width: 768px){
+    .foot1{
+        border-bottom: 1px solid #898989;
+        border-bottom-width: medium;
+    }
+}
+
+.fhover:hover{
+    color:  #bfa16b;
+}
+@media only screen and (max-width: 450px){
+    input{
+        size: 20px;
+    }
+}
+.xfoot{
+    background-color:black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Contact us */
+.contact{
+    background-image: url(Images/Contact/contact.jpg);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    text-align: center;
+}
+.contact h1{
+    color: white;
+    font-size: 72px;
+}
+@media only screen and (max-width: 600px){
+    .contact h1{
+        font-size: 54px;
+    }
+    .contact h6{
+        font-size: 75%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .contact h1{
+        font-size: 44px;
+    }
+    .contact h6{
+        font-size: 70%;
+    }
+}
+
+.message{
+    background-color: rgb(247, 248, 250);
+    text-align: center;
+}
+.contactform{
+    text-align: center;
+    background-color: rgb(247, 248, 250);
+}
+.contactform label{
+    font-weight: bold;
+}
+@media only screen and (max-width: 350px){
+    .contactform h2{
+        font-size: 24px;
+    }
+    .contactform p{
+        font-size: 14px;
+    }
+}
+
+/* ABOUT US */
+.story{
+    text-align: center;
+}
+.story>img{
+    width: 550px; 
+    height: 265px;
+}
+@media only screen and (max-width: 768px){
+    .story img{
+        width: 510px;
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 650px){
+    .story img{
+        width: 400px;
+        height: 230;
+    }
+}
+@media only screen and (max-width: 500px){
+    .story img{
+        width: 330px;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 400px){
+    .story img{
+        width: 315px;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 360px){
+    .story img{
+        width: 300px;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 320px){
+    .story img{
+        width: 260px;
+        height: auto;
+    }
+}
+.about{
+    text-align: center ;
+    background-image: url(Images/about/2.jpg);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+}
+.ourstory{
+    text-align: center;
+}
+.deck1{
+    text-align: center;
+}
+.deck1>.mycard:hover{
+    box-shadow: 0 0 20px #898989 ;
+}
+.deck1>.mycard h3:hover{
+    color: red;
+}
+.deck1 h3{
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.servicetitle,.productitle{
+    font-weight: 800;
+}
+.mycard>img{
+    transform: scale(1);
+	transition: .3s ease-in-out;
+}
+.mycard>img:hover{
+    transform: scale(1.01);
+}
+.deck2>.mycard:hover{
+    box-shadow: 0 0 20px #898989 ;
+}
+.deck2>.mycard h5:hover{
+    color: red;
+}
+.deck2{
+    text-align: center;
+}
